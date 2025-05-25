@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('SCM Checkout') {
             steps {
-                sh 'echo "Hello from GUTHUB"'
+                sh 'echo "Hello from GUTHUB !!!"'
             }
         }
     }
